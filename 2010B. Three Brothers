@@ -1,0 +1,16 @@
+
+import java.util.*;
+public final class Main{
+    
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+       int a=sc.nextInt();
+       int b=sc.nextInt();
+       int arr[]=new int[3];
+        arr[a-1]=1;
+        arr[b-1]=1;
+        if(arr[0]==0)System.out.println(1);
+        if(arr[1]==0)System.out.println(2);
+        if(arr[2]==0)System.out.println(3);
+    }
+}
